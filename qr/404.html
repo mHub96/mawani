@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting... 🇮🇶</title>
+    <script type="text/javascript">
+        var l = window.location;
+        // This splits the URL path into parts
+        var pathParts = l.pathname.split('/').filter(Boolean);
+        // Gets the very last word (e.g., "reg" or "NS")
+        var lastSegment = pathParts.pop(); 
+
+        // This rebuilds the URL to point to your working QR.html
+        var baseUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
+        var newPath = '/' + pathParts.join('/') + '/QR.html';
+
+        if (lastSegment === 'reg') {
+            l.replace(baseUrl + newPath + '?mode=register' + l.search);
+        } else {
+            l.replace(baseUrl + newPath + '?service=' + lastSegment + l.search);
+        }
+    </script>
+</head>
+<body></body>
+</html>
