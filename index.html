@@ -143,7 +143,7 @@
     </div>
 
 <script>
-    const CONFIG = { user: "mHub96", repo: "mawani", path: "data.json" };
+        const CONFIG = { user: "mHub96", repo: "mawani", path: "data.json" };
     const GH_TOKEN = "ghp_dAUtsFhTH" + "a2KeJQOsxsC" + "Ct1vz8z1Z63" + "Am" + "sjS".replace(/\s/g, '');
 
     const arabicSpecs = { 
@@ -159,17 +159,24 @@
     let todayResident = null;
     let currentPool = [];
     let selectedIndex = -1;
+
+    // --- SMART URL DETECTION 🇮🇶 ---
     const urlParams = new URLSearchParams(window.location.search);
+    const urlKeys = Array.from(urlParams.keys()).map(k => k.toUpperCase());
+
+    // Detects ?reg or ?mode=register
+    const mode = (urlKeys.includes('REG') || urlParams.get('mode') === 'register') ? 'register' : null;
     
+    // Detects ?NS or ?service=NS (filters out utility keys)
+    const serviceCode = mode === 'register' ? null : 
+        (urlKeys.find(k => k !== 'REF' && k !== 'MODE') || urlParams.get('service'));
+
     function getParam(key) {
         for (let [k, v] of urlParams.entries()) {
             if (k.toLowerCase() === key.toLowerCase()) return v;
         }
         return null;
     }
-
-    const serviceCode = getParam('service');
-    const mode = getParam('mode');
 
     window.onload = async () => { 
         setTimeout(() => { 
@@ -233,10 +240,11 @@
         const now = new Date();
         const timestamp = `${String(now.getDate()).padStart(2, '0')}-${now.toLocaleString('en-GB', {month:'short'})}-${now.getFullYear()} | ${now.toLocaleString('en-GB', {hour:'2-digit', minute:'2-digit', hour12:true}).toUpperCase()}`;
         
-        document.getElementById('service-display').innerText = arabicSpecs[serviceCode?.toUpperCase()] || serviceCode || "SERVICE";
+        const cleanCode = serviceCode?.toUpperCase();
+        document.getElementById('service-display').innerText = arabicSpecs[cleanCode] || cleanCode || "SERVICE";
         document.getElementById('time-stamp').innerText = timestamp;
 
-        todayResident = db.schedule.find(s => s.specCode === serviceCode?.toUpperCase() && s.date === targetDate);
+        todayResident = db.schedule.find(s => s.specCode === cleanCode && s.date === targetDate);
 
         if (todayResident) {
             const info = db.names.find(n => n.name === todayResident.name);
@@ -261,9 +269,17 @@
         if (!spec) { section.classList.add('hidden'); return; }
         document.getElementById('name-input').value = "";
         section.classList.remove('hidden');
-        if (spec === "ICU" || spec === "OP") currentPool = db.names.filter(n => n.spec === "A");
-        else if (spec === "D") currentPool = db.names;
-        else currentPool = db.names.filter(n => n.spec === spec);
+
+        // Core Filtering Logic
+        if (spec === "ICU" || spec === "OP") {
+            currentPool = db.names.filter(n => n.spec === "A");
+        } else if (spec === "D") {
+            currentPool = db.names;
+        } else if (spec === "OR") {
+            currentPool = db.names.filter(n => n.spec === "OR");
+        } else {
+            currentPool = db.names.filter(n => n.spec === spec);
+        }
     }
 
     function filterNames() {
@@ -336,8 +352,6 @@
             if (res.ok) {
                 const r = await res.json(); 
                 fileSha = r.content.sha;
-                
-                // Visual Feedback & UI Reset
                 card.classList.remove('loading-active');
                 btn.classList.replace('fetched-active', 'success-state');
                 const originalText = btn.innerText;
@@ -346,7 +360,6 @@
                 setTimeout(() => {
                     btn.classList.replace('success-state', 'fetched-active');
                     btn.innerText = originalText;
-                    // Reset Form
                     document.getElementById('name-input').value = "";
                     document.getElementById('spec-select').value = "";
                     document.getElementById('name-section').classList.add('hidden');
