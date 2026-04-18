@@ -66,11 +66,10 @@
                 <input type="tel" id="edit-phone" class="p-4 rounded-xl text-sm font-mono ltr text-right" placeholder="0770...">
                 <select id="edit-spec" class="p-4 rounded-xl text-sm">
                     <option value="NS">Neurosurgery</option>
-                    <option value="CT">Cardiothoracic</option>
                     <option value="GS">General Surgery</option>
                     <option value="US">Urosurgery</option>
                     <option value="ENT">ENT</option>
-                    <option value="H">Cardiology</option>
+                    <option value="IM">Internal Medicine</option>
                     <option value="A">Anesthesia (All)</option>
                     <option value="R">Radiology</option>
                     <option value="OR">Orthopaedics</option>
@@ -99,16 +98,15 @@
                 <div class="grid grid-cols-2 gap-3">
                     <input type="tel" id="new-phone" placeholder="0770..." class="p-4 rounded-2xl text-sm font-mono">
                     <select id="new-spec" class="p-4 rounded-2xl text-sm font-bold">
-                        <option value="NS">Neurosurgery</option>
-                        <option value="CT">Cardiothoracic</option>
-                        <option value="GS">General Surgery</option>
-                        <option value="US">Urosurgery</option>
-                        <option value="ENT">ENT</option>
-                        <option value="H">Cardiology</option>
-                        <option value="A">Anesthesia</option>
-                        <option value="R">Radiology</option>
-                        <option value="OR">Orthopaedics</option>
-                        <option value="RESERVE">RESERVE</option>
+                    <option value="NS">Neurosurgery</option>
+                    <option value="GS">General Surgery</option>
+                    <option value="US">Urosurgery</option>
+                    <option value="ENT">ENT</option>
+                    <option value="IM">Internal Medicine</option>
+                    <option value="A">Anesthesia (All)</option>
+                    <option value="R">Radiology</option>
+                    <option value="OR">Orthopaedics</option>
+                    <option value="RESERVE">RESERVE</option>
                     </select>
                 </div>
                 <button onclick="addResident()" class="w-full bg-blue-600 text-white py-5 rounded-2xl font-black text-sm active:scale-95 transition-transform">إضافة وحفظ</button>
@@ -133,11 +131,11 @@
     let currentEditIdx = null;
 
     const specialties = [
-        { id: "NS", name: "Neurosurgery" }, { id: "CT", name: "Cardiothoracic" },
-        { id: "GS", name: "General Surgery" }, { id: "US", name: "Urosurgery" },
-        { id: "ENT", name: "ENT" }, { id: "H", name: "Cardiology" },
-        { id: "A", name: "Anesthesia (All)" }, { id: "R", name: "Radiology" },
-        { id: "OR", name: "Orthopaedics" }, { id: "RESERVE", name: "RESERVE" }
+        { id: "NS", name: "Neurosurgery" }, { id: "GS", name: "General Surgery" }, 
+        { id: "US", name: "Urosurgery" },{ id: "ENT", name: "ENT" }, 
+        { id: "IM", name: "Internal Medicine" },
+        { id: "A", name: "Anesthesia (All)" }, { id: "OR", name: "Orthopaedics" },
+        { id: "RESERVE", name: "RESERVE" }
     ];
 
     window.onload = init;
