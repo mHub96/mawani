@@ -115,16 +115,15 @@
                 <select id="spec-select" onchange="prepNameInput()" class="w-full bg-transparent p-4 text-slate-300 font-bold outline-none appearance-none text-center">
                     <option value="" class="bg-[#1a1c20]">SELECT SPECIALTY</option>
                     <option value="NS" class="bg-[#1a1c20]">جراحة الجملة العصبية</option>
-                    <option value="CT" class="bg-[#1a1c20]">جراحة الصدر و الاوعية الدموية</option>
+                    <option value="OR" class="bg-[#1a1c20]">الكسور</option>
                     <option value="GS" class="bg-[#1a1c20]">الجراحة العامة</option>
                     <option value="US" class="bg-[#1a1c20]">جراحة المسالك البولية</option>
                     <option value="ENT" class="bg-[#1a1c20]">الأذن و الأنف و الحنجرة</option>
-                    <option value="H" class="bg-[#1a1c20]">أمراض القلب</option>
+                    <option value="IM" class="bg-[#1a1c20]">الباطنية</option>
                     <option value="ICU" class="bg-[#1a1c20]">تخدير العناية المركزة</option>
                     <option value="OP" class="bg-[#1a1c20]">تخدير العمليات</option>
-                    <option value="R" class="bg-[#1a1c20]">الأشعة و السونار</option>
-                    <option value="OR" class="bg-[#1a1c20]">الكسور</option>
-                    <option value="D" class="bg-[#1a1c20]">الوفيات</option>
+                    <!--option value="R" class="bg-[#1a1c20]">الأشعة و السونار</option-->
+                    <!--option value="D" class="bg-[#1a1c20]">الوفيات</option-->
                 </select>
             </div>
             <div id="name-section" class="hidden space-y-4">
@@ -149,7 +148,7 @@
     const arabicSpecs = { 
         "NS": "جراحة الجملة العصبية", "CT": "جراحة الصدر و الاوعية الدموية", 
         "GS": "الجراحة العامة", "US": "جراحة المسالك البولية",
-        "ENT": "الأذن و الأنف و الحنجرة", "H": "أمراض القلب",
+        "ENT": "الأذن و الأنف و الحنجرة", "IM": "الباطنية",
         "ICU": "تخدير العناية المركزة", "OP": "تخدير العمليات",
         "R": "الأشعة و السونار", "OR": "الكسور", "D": "الوفيات"
     };
