@@ -186,12 +186,5 @@
       "phone": "+9647704967752"
     }
   ],
-  "schedule": [
-    {
-      "date": "11/04/2026",
-      "specCode": "OR",
-      "name": "د. ORTHO",
-      "timestamp": "15:13"
-    }
-  ]
+  "schedule": []
 }
