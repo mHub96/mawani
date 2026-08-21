@@ -292,9 +292,9 @@
     },
     {
       "id": "IM",
-      "name_ar": "IM",
-      "name_en": "IM",
-      "icon": "🏥",
+      "name_ar": "طب الامراض الباطنية",
+      "name_en": "Internal Medicine",
+      "icon": "🩺",
       "color": "#2563eb",
       "acceptPool": [],
       "enabled": true
