@@ -367,11 +367,11 @@
       "active": true
     },
     {
-      "name": "د. محمد عبد الحسين",
-      "spec": "NS",
+      "name": "د. محمد عبدالحسين محسن",
       "phone": "+9647707334546",
+      "spec": "RESERVE",
       "tag": "NS",
-      "active": true
+      "active": false
     },
     {
       "name": "د. مصطفى حسن",
