@@ -74,15 +74,6 @@
       "enabled": true
     },
     {
-      "id": "N",
-      "name_ar": "طب امراض الكلى",
-      "name_en": "Nephrology",
-      "icon": "🧫",
-      "color": "#ff5ccb",
-      "acceptPool": [],
-      "enabled": false
-    },
-    {
       "id": "IM",
       "name_ar": "طب الامراض الباطنية",
       "name_en": "Internal Medicine",
@@ -177,6 +168,15 @@
       "name_en": "Oncology",
       "icon": "☢️",
       "color": "#84cc16",
+      "acceptPool": [],
+      "enabled": false
+    },
+    {
+      "id": "N",
+      "name_ar": "طب امراض الكلى",
+      "name_en": "Nephrology",
+      "icon": "🧫",
+      "color": "#ff5ccb",
       "acceptPool": [],
       "enabled": false
     },
