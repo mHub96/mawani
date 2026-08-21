@@ -92,15 +92,6 @@
       "enabled": true
     },
     {
-      "id": "M",
-      "name_ar": "الباطنية",
-      "name_en": "Internal Medicine",
-      "icon": "💊",
-      "color": "#a1e972",
-      "acceptPool": [],
-      "enabled": true
-    },
-    {
       "id": "G",
       "name_ar": "النسائية و التوليد",
       "name_en": "Gynecology",
