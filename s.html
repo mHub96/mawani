@@ -1280,7 +1280,7 @@
         var timePickerOpen = false;
 
         function applyHospitalName() {
-            var hospitalName = String(database.hospitalName || 'Basra Teaching Hospital').trim() || 'Basra Teaching Hospital';
+            var hospitalName = String(database.hospitalName || 'Mawani Teaching Hospital').trim() || 'Mawani Teaching Hospital';
             var hospitalNameElement = document.getElementById('hospital-name');
             if (hospitalNameElement) hospitalNameElement.textContent = hospitalName;
             document.title = hospitalName + ' · Scheduler 🇮🇶';
@@ -2758,7 +2758,7 @@
 
             try {
                 var dataToSave = {
-                    hospitalName: database.hospitalName || 'Basra Teaching Hospital',
+                    hospitalName: database.hospitalName || 'Mawani Teaching Hospital',
                     names: database.names || [],
                     schedule: database.schedule || [],
                     passwords: database.passwords || { user: "12345", admin: "123" },
