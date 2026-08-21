@@ -2,6 +2,15 @@
   "hospitalName": "Iraqi Teaching Hospital",
   "specialties": [
     {
+      "id": "NS",
+      "name_ar": "جراحة الجملة العصبية",
+      "name_en": "Neurosurgery",
+      "icon": "🧠",
+      "color": "#fea101",
+      "acceptPool": [],
+      "enabled": true
+    },
+    {
       "id": "MF",
       "name_ar": "جراحة الوجه و الفكين",
       "name_en": "MaxilloFacial Surgery",
@@ -271,15 +280,6 @@
       "color": "#3bb8f7",
       "acceptPool": [],
       "enabled": false
-    },
-    {
-      "id": "NS",
-      "name_ar": "جراحة الجملة العصبية",
-      "name_en": "Neurosurgery",
-      "icon": "🧠",
-      "color": "#fea101",
-      "acceptPool": [],
-      "enabled": true
     },
     {
       "id": "CT",
