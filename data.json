@@ -319,10 +319,10 @@
     },
     {
       "name": "د. محمد رياض جعفر",
-      "spec": "NS",
       "phone": "+9647805195075",
+      "spec": "RESERVE",
       "tag": "NS",
-      "active": true
+      "active": false
     },
     {
       "name": "د. اياد يعرب",
