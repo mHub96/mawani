@@ -347,10 +347,10 @@
     },
     {
       "name": "د. حيدر عبد علي",
-      "spec": "NS",
       "phone": "+9647773726610",
+      "spec": "RESERVE",
       "tag": "NS",
-      "active": true
+      "active": false
     },
     {
       "name": "د. علي عارف",
