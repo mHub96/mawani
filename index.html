@@ -703,7 +703,7 @@
                 <i class="fas fa-calendar-check"></i>
             </div>
             <h2>🔐 تسجيل الخفراء</h2>
-            <p class="subtitle"><span data-hospital-name>Basra Teaching Hospital</span> · أدخل كلمة المرور للدخول</p>
+            <p class="subtitle"><span data-hospital-name>Mawani Teaching Hospital</span> · أدخل كلمة المرور للدخول</p>
             <div>
                 <input type="password" id="password-input" class="lock-input" placeholder="•••••" maxlength="20">
                 <button id="login-btn" class="btn-login" onclick="handleLogin()">
@@ -801,7 +801,7 @@
         let isAutoLoginSuccess = false; // Track if auto-login already showed a toast
 
         function applyHospitalName() {
-            const hospitalName = String(db.hospitalName || 'Basra Teaching Hospital').trim() || 'Basra Teaching Hospital';
+            const hospitalName = String(db.hospitalName || 'Mawani Teaching Hospital').trim() || 'Mawani Teaching Hospital';
             document.querySelectorAll('[data-hospital-name]').forEach(element => { element.textContent = hospitalName; });
             localStorage.setItem('hospital_name_cache', hospitalName);
             document.title = hospitalName + ' · تسجيل الخفراء';
@@ -1336,7 +1336,7 @@
 
             try {
                 const dataToSave = {
-                    hospitalName: db.hospitalName || 'Basra Teaching Hospital',
+                    hospitalName: db.hospitalName || 'Mawani Teaching Hospital',
                     names: db.names || [],
                     schedule: db.schedule || [],
                     passwords: db.passwords || {},
