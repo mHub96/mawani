@@ -107,7 +107,7 @@
       "icon": "🧠",
       "color": "#fef606",
       "acceptPool": [],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ICU",
