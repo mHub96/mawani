@@ -1,5 +1,5 @@
 {
-  "hospitalName": "Iraqi Teaching Hospital",
+  "hospitalName": "Mawani Teaching Hospital",
   "specialties": [
     {
       "id": "NS",
@@ -319,8 +319,8 @@
     },
     {
       "name": "د. محمد رياض جعفر",
-      "phone": "+9647805195075",
       "spec": "RESERVE",
+      "phone": "+9647805195075",
       "tag": "NS",
       "active": false
     },
@@ -340,15 +340,15 @@
     },
     {
       "name": "د. حسين علي عفراوي",
-      "phone": "+9647812638342",
       "spec": "RESERVE",
+      "phone": "+9647812638342",
       "tag": "NS",
       "active": false
     },
     {
       "name": "د. حيدر عبد علي",
-      "phone": "+9647773726610",
       "spec": "RESERVE",
+      "phone": "+9647773726610",
       "tag": "NS",
       "active": false
     },
@@ -368,15 +368,15 @@
     },
     {
       "name": "د. محمد عبدالحسين محسن",
-      "phone": "+9647707334546",
       "spec": "RESERVE",
+      "phone": "+9647707334546",
       "tag": "NS",
       "active": false
     },
     {
       "name": "د. مصطفى حسن",
-      "phone": "+9647833301233",
       "spec": "RESERVE",
+      "phone": "+9647833301233",
       "tag": "NS",
       "active": false
     },
