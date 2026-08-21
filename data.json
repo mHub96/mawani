@@ -74,15 +74,6 @@
       "enabled": true
     },
     {
-      "id": "NM",
-      "name_ar": "طب الجملة العصبية",
-      "name_en": "Neuromedicine",
-      "icon": "🧠",
-      "color": "#79e9f1",
-      "acceptPool": [],
-      "enabled": false
-    },
-    {
       "id": "N",
       "name_ar": "طب امراض الكلى",
       "name_en": "Nephrology",
@@ -215,6 +206,15 @@
       "name_en": "Anaethesia",
       "icon": "💉",
       "color": "#ff8e24",
+      "acceptPool": [],
+      "enabled": false
+    },
+    {
+      "id": "NM",
+      "name_ar": "طب الجملة العصبية",
+      "name_en": "Neuromedicine",
+      "icon": "🧠",
+      "color": "#79e9f1",
       "acceptPool": [],
       "enabled": false
     },
