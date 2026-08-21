@@ -38,20 +38,20 @@
       "enabled": true
     },
     {
-      "id": "MF",
-      "name_ar": "جراحة الوجه و الفكين",
-      "name_en": "MaxilloFacial Surgery",
-      "icon": "🦷",
-      "color": "#d600af",
-      "acceptPool": [],
-      "enabled": true
-    },
-    {
       "id": "ENT",
       "name_ar": "الأذن و الأنف و الحنجرة",
       "name_en": "ENT",
       "icon": "👂",
       "color": "#fbff00",
+      "acceptPool": [],
+      "enabled": true
+    },
+    {
+      "id": "MF",
+      "name_ar": "جراحة الوجه و الفكين",
+      "name_en": "MaxilloFacial Surgery",
+      "icon": "🦷",
+      "color": "#d600af",
       "acceptPool": [],
       "enabled": true
     },
