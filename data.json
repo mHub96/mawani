@@ -375,10 +375,10 @@
     },
     {
       "name": "د. مصطفى حسن",
-      "spec": "NS",
       "phone": "+9647833301233",
+      "spec": "RESERVE",
       "tag": "NS",
-      "active": true
+      "active": false
     },
     {
       "name": "د. حيدر قاسم",
