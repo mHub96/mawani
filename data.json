@@ -340,10 +340,10 @@
     },
     {
       "name": "د. حسين علي عفراوي",
-      "spec": "NS",
       "phone": "+9647812638342",
+      "spec": "RESERVE",
       "tag": "NS",
-      "active": true
+      "active": false
     },
     {
       "name": "د. حيدر عبد علي",
