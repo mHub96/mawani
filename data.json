@@ -11,20 +11,20 @@
       "enabled": true
     },
     {
-      "id": "MF",
-      "name_ar": "جراحة الوجه و الفكين",
-      "name_en": "MaxilloFacial Surgery",
-      "icon": "🦷",
-      "color": "#d600af",
-      "acceptPool": [],
-      "enabled": true
-    },
-    {
       "id": "GS",
       "name_ar": "الجراحة العامة",
       "name_en": "General Surgery",
       "icon": "🔪",
       "color": "#2ac200",
+      "acceptPool": [],
+      "enabled": true
+    },
+    {
+      "id": "MF",
+      "name_ar": "جراحة الوجه و الفكين",
+      "name_en": "MaxilloFacial Surgery",
+      "icon": "🦷",
+      "color": "#d600af",
       "acceptPool": [],
       "enabled": true
     },
