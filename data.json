@@ -132,17 +132,6 @@
       "enabled": true
     },
     {
-      "id": "GA",
-      "name_ar": "تخدير صالة الولادة",
-      "name_en": "GYN Anaesthesia",
-      "icon": "🤰",
-      "color": "#fe62ad",
-      "acceptPool": [
-        "A"
-      ],
-      "enabled": false
-    },
-    {
       "id": "R",
       "name_ar": "الأشعة و السونار",
       "name_en": "Radiology",
@@ -198,6 +187,17 @@
       "icon": "☢️",
       "color": "#84cc16",
       "acceptPool": [],
+      "enabled": false
+    },
+    {
+      "id": "GA",
+      "name_ar": "تخدير صالة الولادة",
+      "name_en": "GYN Anaesthesia",
+      "icon": "🤰",
+      "color": "#fe62ad",
+      "acceptPool": [
+        "A"
+      ],
       "enabled": false
     },
     {
