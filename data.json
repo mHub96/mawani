@@ -20,20 +20,20 @@
       "enabled": true
     },
     {
-      "id": "MF",
-      "name_ar": "جراحة الوجه و الفكين",
-      "name_en": "MaxilloFacial Surgery",
-      "icon": "🦷",
-      "color": "#d600af",
-      "acceptPool": [],
-      "enabled": true
-    },
-    {
       "id": "OR",
       "name_ar": "الكسور",
       "name_en": "Orthopaedics",
       "icon": "🦴",
       "color": "#ff0000",
+      "acceptPool": [],
+      "enabled": true
+    },
+    {
+      "id": "MF",
+      "name_ar": "جراحة الوجه و الفكين",
+      "name_en": "MaxilloFacial Surgery",
+      "icon": "🦷",
+      "color": "#d600af",
       "acceptPool": [],
       "enabled": true
     },
