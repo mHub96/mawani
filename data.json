@@ -526,6 +526,13 @@
       "tag": "IM",
       "phone": "+9647838781799",
       "active": true
+    },
+    {
+      "name": "د. ذو الفقار صارم",
+      "spec": "OR",
+      "tag": "OR",
+      "phone": "+9647705535066",
+      "active": true
     }
   ],
   "schedule": [
