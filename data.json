@@ -536,10 +536,10 @@
     },
     {
       "name": "د. حيدر عبد الأمير",
-      "spec": "RESERVE",
       "phone": "+9647727567076",
+      "spec": "O",
       "tag": "O",
-      "active": false
+      "active": true
     },
     {
       "name": "د. محمد باقر",
