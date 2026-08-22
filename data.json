@@ -634,10 +634,10 @@
     },
     {
       "name": "علي عبد الحسين",
-      "spec": "RESERVE",
-      "tag": "AO",
       "phone": "+9647704303025",
-      "active": false
+      "spec": "AO",
+      "tag": "AO",
+      "active": true
     }
   ],
   "schedule": [
