@@ -547,6 +547,13 @@
       "tag": "GS",
       "phone": "+9647815701931",
       "active": true
+    },
+    {
+      "name": "د. عبد الوهاب مصطفى",
+      "spec": "IM",
+      "tag": "IM",
+      "phone": "+9647838781799",
+      "active": true
     }
   ],
   "schedule": [
