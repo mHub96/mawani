@@ -554,6 +554,13 @@
       "tag": "Pe",
       "phone": "+9647738265348",
       "active": false
+    },
+    {
+      "name": "د. عدوّيه نجم",
+      "spec": "Pe",
+      "tag": "Pe",
+      "phone": "+9647730133668",
+      "active": true
     }
   ],
   "schedule": [
