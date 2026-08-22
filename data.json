@@ -547,6 +547,13 @@
       "tag": "O",
       "phone": "+9647714982924",
       "active": true
+    },
+    {
+      "name": "د. زينب مالك",
+      "spec": "RESERVE",
+      "tag": "Pe",
+      "phone": "+9647738265348",
+      "active": false
     }
   ],
   "schedule": [
