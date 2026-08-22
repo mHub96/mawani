@@ -533,6 +533,13 @@
       "phone": "+9647776228423",
       "tag": "A",
       "active": true
+    },
+    {
+      "name": "د. البراء بهاء",
+      "spec": "US",
+      "tag": "US",
+      "phone": "+9647722138029",
+      "active": true
     }
   ],
   "schedule": [
