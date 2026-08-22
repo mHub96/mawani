@@ -533,6 +533,13 @@
       "tag": "OR",
       "phone": "+9647705535066",
       "active": true
+    },
+    {
+      "name": "د. حيدر عبد الأمير",
+      "spec": "RESERVE",
+      "tag": "O",
+      "phone": "+9647727567076",
+      "active": false
     }
   ],
   "schedule": [
