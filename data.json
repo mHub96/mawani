@@ -540,6 +540,13 @@
       "tag": "US",
       "phone": "+9647722138029",
       "active": true
+    },
+    {
+      "name": "د. عباس طالب",
+      "spec": "GS",
+      "tag": "GS",
+      "phone": "+9647815701931",
+      "active": true
     }
   ],
   "schedule": [
