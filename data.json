@@ -673,6 +673,13 @@
       "phone": "+9647827903387",
       "tag": "R",
       "active": true
+    },
+    {
+      "name": "د. شيرين سمير",
+      "spec": "OP",
+      "tag": "OP",
+      "phone": "+9647826655511",
+      "active": true
     }
   ],
   "schedule": [
