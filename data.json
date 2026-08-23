@@ -666,6 +666,13 @@
       "tag": "OR",
       "phone": "+9647813977691",
       "active": true
+    },
+    {
+      "name": "د. ضياء سليم",
+      "spec": "R",
+      "tag": "R",
+      "phone": "+9647827903387",
+      "active": true
     }
   ],
   "schedule": [
