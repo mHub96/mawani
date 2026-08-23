@@ -638,6 +638,13 @@
       "phone": "+9647722772419",
       "tag": "AO",
       "active": true
+    },
+    {
+      "name": "د. فرح سعود",
+      "spec": "R",
+      "tag": "R",
+      "phone": "+9647718705644",
+      "active": true
     }
   ],
   "schedule": [
