@@ -708,6 +708,13 @@
       "tag": "OP",
       "phone": "+9647705669930",
       "active": true
+    },
+    {
+      "name": "د. مريم محمد صابط",
+      "spec": "G",
+      "tag": "G",
+      "phone": "+9647735575678",
+      "active": true
     }
   ],
   "schedule": [
