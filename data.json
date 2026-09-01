@@ -2805,39 +2805,7 @@
       "specCode": "GS",
       "name": "د. نور امجد",
       "VisitCount": 0,
-      "dutyTime": "08:00AM - 08:00PM",
-      "dutySlot": 0
-    },
-    {
-      "date": "01/09/2026",
-      "specCode": "GS",
-      "name": "د. نور امجد",
-      "VisitCount": 0,
-      "dutyTime": "08:00PM - 08:00AM",
-      "dutySlot": 1
-    },
-    {
-      "date": "01/09/2026",
-      "specCode": "GS",
-      "name": "د. نور امجد",
-      "VisitCount": 0,
-      "dutyTime": "12:00AM - 08:00AM",
-      "dutySlot": 2
-    },
-    {
-      "date": "01/09/2026",
-      "specCode": "GS",
-      "name": "د. نور امجد",
-      "VisitCount": 0,
-      "dutyTime": "02:00AM - 08:00AM",
-      "dutySlot": 3
-    },
-    {
-      "date": "02/09/2026",
-      "specCode": "GS",
-      "name": "د. علي عبد الناصر",
-      "VisitCount": 0,
-      "dutyTime": "08:00AM - 08:00PM",
+      "dutyTime": "",
       "dutySlot": 0
     },
     {
@@ -2845,8 +2813,8 @@
       "specCode": "GS",
       "name": "د. علي عبد الناصر",
       "VisitCount": 0,
-      "dutyTime": "08:00PM - 08:00AM",
-      "dutySlot": 1
+      "dutyTime": "",
+      "dutySlot": 0
     },
     {
       "date": "03/09/2026",
