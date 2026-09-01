@@ -834,6 +834,13 @@
       "tag": "ICU",
       "phone": "+9647735237481",
       "active": true
+    },
+    {
+      "name": "د. شيرين سمير",
+      "spec": "A",
+      "tag": "A",
+      "phone": "+9647826655511",
+      "active": true
     }
   ],
   "schedule": [
