@@ -848,6 +848,20 @@
       "tag": "A",
       "phone": "+9647739244859",
       "active": true
+    },
+    {
+      "name": "د. مسره سعد",
+      "spec": "A",
+      "tag": "A",
+      "phone": "+9647723359625",
+      "active": true
+    },
+    {
+      "name": "د. صافي إبراهيم",
+      "spec": "A",
+      "tag": "A",
+      "phone": "+9647739468124",
+      "active": true
     }
   ],
   "schedule": [
