@@ -799,6 +799,13 @@
       "tag": "ICU",
       "phone": "+9647826655511",
       "active": true
+    },
+    {
+      "name": "د. حسين عويد",
+      "spec": "ICU",
+      "tag": "ICU",
+      "phone": "+9647739244859",
+      "active": true
     }
   ],
   "schedule": [
