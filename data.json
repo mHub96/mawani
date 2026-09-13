@@ -1229,7 +1229,7 @@
       "specCode": "NS",
       "name": "د. علي جواد",
       "VisitCount": 4,
-      "dutyTime": "",
+      "dutyTime": "08:00AM - 08:00PM",
       "dutySlot": 0
     },
     {
@@ -4471,6 +4471,14 @@
       "VisitCount": 0,
       "dutyTime": "",
       "dutySlot": 0
+    },
+    {
+      "date": "13/09/2026",
+      "specCode": "NS",
+      "name": "",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
     }
   ],
   "passwords": {
