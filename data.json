@@ -3509,15 +3509,15 @@
       "specCode": "ICU",
       "name": "د. روان عدنان حسين",
       "VisitCount": 4,
-      "dutyTime": "",
+      "dutyTime": "08:00AM - 08:00PM",
       "dutySlot": 0
     },
     {
       "date": "24/09/2026",
       "specCode": "ICU",
-      "name": "د. فاطمة محمد حسن",
+      "name": "د. روان عدنان حسين",
       "VisitCount": 4,
-      "dutyTime": "",
+      "dutyTime": "08:00AM - 08:00PM",
       "dutySlot": 0
     },
     {
@@ -4476,6 +4476,22 @@
       "date": "13/09/2026",
       "specCode": "NS",
       "name": "د. علي جواد",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
+    },
+    {
+      "date": "24/09/2026",
+      "specCode": "ICU",
+      "name": "د. فاطمة محمد حسن",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
+    },
+    {
+      "date": "23/09/2026",
+      "specCode": "ICU",
+      "name": "د. روان عدنان حسين",
       "VisitCount": 0,
       "dutyTime": "08:00PM - 08:00AM",
       "dutySlot": 1
