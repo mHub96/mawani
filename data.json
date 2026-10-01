@@ -7778,6 +7778,70 @@
       "VisitCount": 0,
       "dutyTime": "",
       "dutySlot": 0
+    },
+    {
+      "date": "01/10/2026",
+      "specCode": "G",
+      "name": "د. ريام ناجح شعلان",
+      "VisitCount": 0,
+      "dutyTime": "08:00AM - 08:00PM",
+      "dutySlot": 0
+    },
+    {
+      "date": "01/10/2026",
+      "specCode": "G",
+      "name": "د. هبة نعيم",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
+    },
+    {
+      "date": "02/10/2026",
+      "specCode": "G",
+      "name": "د. ريام ناجح شعلان",
+      "VisitCount": 0,
+      "dutyTime": "08:00AM - 08:00PM",
+      "dutySlot": 0
+    },
+    {
+      "date": "02/10/2026",
+      "specCode": "G",
+      "name": "د. امنه صفاء",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
+    },
+    {
+      "date": "03/10/2026",
+      "specCode": "G",
+      "name": "د. هبة نعيم",
+      "VisitCount": 0,
+      "dutyTime": "08:00AM - 08:00PM",
+      "dutySlot": 0
+    },
+    {
+      "date": "03/10/2026",
+      "specCode": "G",
+      "name": "د. ريام ناجح شعلان",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
+    },
+    {
+      "date": "04/10/2026",
+      "specCode": "G",
+      "name": "د. امنه صفاء",
+      "VisitCount": 0,
+      "dutyTime": "08:00AM - 08:00PM",
+      "dutySlot": 0
+    },
+    {
+      "date": "04/10/2026",
+      "specCode": "G",
+      "name": "د. فاطمة ماجد عبد الكريم",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
     }
   ],
   "passwords": {
