@@ -7938,6 +7938,14 @@
       "VisitCount": 0,
       "dutyTime": "08:00PM - 08:00AM",
       "dutySlot": 1
+    },
+    {
+      "date": "08/11/2026",
+      "specCode": "IM",
+      "name": "د. احمد حسن رحيم",
+      "VisitCount": 0,
+      "dutyTime": "",
+      "dutySlot": 0
     }
   ],
   "passwords": {
