@@ -5376,7 +5376,7 @@
       "specCode": "O",
       "name": "د. محمد باقر",
       "VisitCount": 0,
-      "dutyTime": "",
+      "dutyTime": "08:00AM - 08:00PM",
       "dutySlot": 0
     },
     {
@@ -7954,6 +7954,22 @@
       "VisitCount": 2,
       "dutyTime": "08:00PM - 08:00AM",
       "dutySlot": 1
+    },
+    {
+      "date": "09/10/2026",
+      "specCode": "O",
+      "name": "",
+      "VisitCount": 0,
+      "dutyTime": "08:00PM - 08:00AM",
+      "dutySlot": 1
+    },
+    {
+      "date": "09/10/2026",
+      "specCode": "O",
+      "name": "",
+      "VisitCount": 0,
+      "dutyTime": "12:00AM - 08:00AM",
+      "dutySlot": 2
     }
   ],
   "passwords": {
